@@ -12,8 +12,8 @@ RUN apt-get update -y &&\
     apt-get install -y apache2 \
         wget \
 	python3-pip\
-#	libncursesw5-dev libssl-dev \
-#	libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev \
+	libncursesw5-dev libssl-dev \
+	libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev \
         build-essential &&\
     apt-get autoremove &&\
     apt-get clean &&\
